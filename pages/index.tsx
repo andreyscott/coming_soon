@@ -14,13 +14,19 @@ const IndexPage = () => (
       className="absolute w-full left-24 bottom-24 animate-blob2"
     />
     <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
+      {/* import the SoftLife logo from the public folder and add it to the page */}
+      
+      <div className="flex max-w-4xl justify-start ml-6  ">
+      <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
+        </div>
+
       <div className="text-center space-y-10">
-        <h3 className="font-bold text-2xl uppercase tracking-wider">
-          SoftLive is Coming soon
+        <h3 className="font-bold text-2xl xl:text-5xl uppercase tracking-wider">
+          SoftLife is Coming soon
         </h3>
         <h1 className="lg:text-5xl flex"><Timer /></h1>
-        <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
-          We`re under construction. Check back for an update soon. Stay in
+        <p className="text-xl lg:text-4xl font-semibold tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
+          We`re under construction. provide your email for any future updates. Stay in touch
           touch!
         </p>
       </div>
@@ -35,13 +41,13 @@ const IndexPage = () => (
         </button>
       </form>
     </div>
-    <div className="absolute bottom-5">
-      <ul className="flex space-x-3">
-        <li>
-          <Link href="https://andrey-profile.web.app">
-            <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+    <div className="xl:absolute xl:bottom-5">
+      <ul className="flex space-x-5 lg:space-x-8    ">
+        <li className="flex ">
+          <Link href="https://www.instagram.com/thesoftlifehq/?utm_medium=copy_link">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
               <svg
-                className="w-6 h-6"
+                className="w-10 h-10 lg:w-16  lg:h-16"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -56,10 +62,10 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://andrey-profile.web.app">
-            <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+          <Link href="https://twitter.com/thesoftlifehq?s=21">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
               <svg
-                className="w-6 h-6"
+                className="w-10 h-10 lg:w-16  lg:h-16"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -70,28 +76,23 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://andrey-profile.web.app">
-            <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
-              <svg
-                className="w-6 h-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-                  clipRule="evenodd"
-                ></path>
+          <Link href="https://www.linkedin.com/company/the-soft-life-geng/about/">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+
+              <svg 
+              className="w-10 h-10 lg:w-16  lg:h-16"
+               xmlns="http://www.w3.org/2000/svg" 
+              viewBox="0 0 448 512">
+                 <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/>
               </svg>
             </a>
           </Link>
         </li>
         <li>
-          <Link href="https://andrey-profile.web.app">
-            <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+          <Link href="https://web.facebook.com/thesoftlifehq/">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
               <svg
-                className="w-6 h-6"
+                className="w-10 h-10 lg:w-16  lg:h-16"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
