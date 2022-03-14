@@ -87,11 +87,11 @@ class Timer extends Component {
     const countDown = this.state
 
     return (
-      <div className="w-full  h-full flex text-xl lg:text-3xl justify-center  pb-3">
+      <div className="w-screen h-full flex text-3xl p-4  bg-gray-500 lg:text-3xl justify-center  pb-3">
         {countDown.years > 0 && (
-          <span className="">
+          <span className="bg-blue-200">
             <span className="flex  mx-4 my-10  flex-col">
-              <strong className='text-6xl inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.years)}</strong>
+              <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.years)}</strong>
               <span>{countDown.years === 1 ? 'Year' : 'Years'}</span>
             </span>
           </span>
@@ -99,28 +99,28 @@ class Timer extends Component {
 
         <span className="inline-block">
           <span className="flex  mx-4 my-10  flex-col">
-            <strong className='text-6xl inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.days)}</strong>
+            <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.days)}</strong>
             <span className=''>{countDown.days === 1 ? 'Day' : 'Days'}</span>
           </span>
         </span>
 
         <span className="">
           <span className="flex  mx-4 my-10  flex-col">
-            <strong className="text-6xl inline-block  mx-auto my-10  flex-col">{this.addLeadingZeros(countDown.hours)}</strong>
+            <strong className=" inline-block  mx-auto my-10  flex-col">{this.addLeadingZeros(countDown.hours)}</strong>
             <span className=''>{countDown.hours === 1 ? 'Hour' : 'Hours'}</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="flex  mx-4 my-10  flex-col">
-            <strong className='text-6xl inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.min)}</strong>
+            <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.min)}</strong>
             <span className='mx-4'>Min</span>
           </span>
         </span>
 
-        <span className="Countdown-col">
+        <span className="bg-red-200">
           <span className="flex  mx-auto my-10  flex-col">
-            <strong className='text-6xl inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.sec)}</strong>
+            <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.sec)}</strong>
             <span>Sec</span>
           </span>
         </span>
