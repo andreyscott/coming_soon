@@ -87,7 +87,7 @@ class Timer extends Component {
     const countDown = this.state
 
     return (
-      <div className="w-screen flex text-2xl p-4 font-bold  bg-gray-500 md:text-3xl lg:text-4xl xl:text-5xl overflow-hidden justify-around ">
+      <div className="w-screen flex text-3xl p-4 font-bold md:text-3xl lg:text-5xl  lg:font-extrabold xl:text-6xl overflow-hidden justify-around ">
         {countDown.years > 0 && (
           <span className="">
             <span className="flex  mx-4 my-10  flex-col">
@@ -118,7 +118,7 @@ class Timer extends Component {
           </span>
         </span>
 
-        <span className="bg-red-200">
+        <span className="p-2">
           <span className="flex  mx-auto my-10  flex-col">
             <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.sec)}</strong>
             <span>Sec</span>
