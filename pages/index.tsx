@@ -18,7 +18,7 @@ const IndexPage = () => (
         <h3 className="font-bold text-2xl uppercase tracking-wider">
           SoftLive is Coming soon
         </h3>
-        <h1 className="text-3xl lg:text-5xl font-extrabold flex justify-center"><Timer /></h1>
+        <h1 className="lg:text-5xl flex"><Timer /></h1>
         <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
           We`re under construction. Check back for an update soon. Stay in
           touch!
