@@ -8,15 +8,16 @@ const IndexPage = () => (
       src="/images/xera.svg"
       alt="andrey-profile.web.app"    className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
     />
-    <div className="flex max-w-4xl justify-start ml-6 top-16 left-11  ">
-      <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
-        </div>
+    
     <img
       src="/images/shapes.svg"
       alt="hero"
       className="absolute w-full left-24 bottom-24 animate-blob2"
     />
     <div className="relative font-pop z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
+    <div className="flex max-w-4xl justify-start ml-6 ">
+      <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
+        </div>
       {/* import the SoftLife logo from the public folder and add it to the page */}
       
       <div className="flex max-w-4xl  justify-start ml-6 font-bold  ">
@@ -44,7 +45,7 @@ const IndexPage = () => (
         </button>
       </form>
     </div>
-    <div className="absolute bottom-5  xl:bottom-10">
+    <div className="absolute bottom-1  xl:bottom-5">
       <ul className="flex space-x-5 lg:space-x-8    ">
         <li className="flex ">
           <Link href="https://www.instagram.com/thesoftlifehq/?utm_medium=copy_link">
