@@ -14,7 +14,7 @@ const IndexPage = () => (
       alt="hero"
       className="absolute w-full left-24 bottom-24 animate-blob2"
     />
-    <div className="relative font-pop z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
+    <div className="relative font-pop z-10 py-6 space-y-16 lg:space-y-32 text-pblack">
     <div className="flex max-w-4xl justify-start ml-6 ">
       <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
         </div>
@@ -25,11 +25,11 @@ const IndexPage = () => (
         </div> */}
 
       <div className="text-center space-y-10">
-        <h3 className="  text-2xl xl:text-5xl uppercase tracking-wider">
+        <h3 className="  text-2xl xl:text-5xl uppercase  tracking-wider">
          The SoftLife is Coming soon
         </h3>
         <h1 className="lg:text-5xl flex"><Timer /></h1>
-        <p className="text-xl lg:text-4xl font-semibold  hover:cursor-pointer  tracking-wide mx-10 lg:max-w-xl lg:mx-auto hover:font-pop">
+        <p className="text-xl lg:text-4xl font-semibold   hover:cursor-pointer  tracking-wide mx-10 lg:max-w-xl lg:mx-auto hover:font-pop">
           We`re under construction. provide your email for any future updates. Stay in touch
           touch!
         </p>
@@ -38,9 +38,9 @@ const IndexPage = () => (
         <input
           type="text"
           placeholder="keep me updated!"
-          className="w-full text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
+          className="w-full text-2xl font-light text-pblack placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
         />
-        <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-red-500">
+        <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-pblack text-white rounded-xl transition ease-in-out duration-500  hover:bg-pyellow">
           Notify me
         </button>
       </form>
@@ -49,7 +49,7 @@ const IndexPage = () => (
       <ul className="flex space-x-5 lg:space-x-8    ">
         <li className="flex ">
           <Link href="https://www.instagram.com/thesoftlifehq/?utm_medium=copy_link">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
               <svg
                 className="w-8 h-8 lg:w-16  lg:h-16"
                 fill="currentColor"
@@ -67,7 +67,7 @@ const IndexPage = () => (
         </li>
         <li>
           <Link href="https://twitter.com/thesoftlifehq?s=21">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
               <svg
                 className="w-8 h-8 lg:w-16  lg:h-16"
                 fill="currentColor"
@@ -81,7 +81,7 @@ const IndexPage = () => (
         </li>
         <li>
           <Link href="https://www.linkedin.com/company/the-soft-life-geng/about/">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
 
               <svg 
            className="w-8 h-8 lg:w-16  lg:h-16"
@@ -94,7 +94,7 @@ const IndexPage = () => (
         </li>
         <li>
           <Link href="https://web.facebook.com/thesoftlifehq/">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
               <svg
                className="w-8 h-8 lg:w-16  lg:h-16"
                 fill="currentColor"
