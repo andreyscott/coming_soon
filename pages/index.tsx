@@ -8,24 +8,27 @@ const IndexPage = () => (
       src="/images/xera.svg"
       alt="andrey-profile.web.app"    className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
     />
+    <div className="flex max-w-4xl justify-start ml-6 top-16 left-11  ">
+      <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
+        </div>
     <img
       src="/images/shapes.svg"
       alt="hero"
       className="absolute w-full left-24 bottom-24 animate-blob2"
     />
-    <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
+    <div className="relative font-pop z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
       {/* import the SoftLife logo from the public folder and add it to the page */}
       
-      <div className="flex max-w-4xl justify-start ml-6  ">
+      <div className="flex max-w-4xl  justify-start ml-6 font-bold  ">
       <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
         </div>
 
       <div className="text-center space-y-10">
-        <h3 className="font-bold text-2xl xl:text-5xl uppercase tracking-wider">
+        <h3 className="  text-2xl xl:text-5xl uppercase tracking-wider">
           SoftLife is Coming soon
         </h3>
         <h1 className="lg:text-5xl flex"><Timer /></h1>
-        <p className="text-xl lg:text-4xl font-semibold tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
+        <p className="text-xl lg:text-4xl font-semibold  hover:cursor-pointer  tracking-wide mx-10 lg:max-w-xl lg:mx-auto hover:font-pop">
           We`re under construction. provide your email for any future updates. Stay in touch
           touch!
         </p>
@@ -41,7 +44,7 @@ const IndexPage = () => (
         </button>
       </form>
     </div>
-    <div className="xl:absolute xl:bottom-5">
+    <div className="absolute bottom-5  xl:bottom-10">
       <ul className="flex space-x-5 lg:space-x-8    ">
         <li className="flex ">
           <Link href="https://www.instagram.com/thesoftlifehq/?utm_medium=copy_link">

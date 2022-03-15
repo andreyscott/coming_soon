@@ -8,6 +8,10 @@ module.exports = {
         "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
     },
     extend: {
+   
+      fontFamily: {
+        pop: ['Poppins']
+      },
       animation: {
         blob: "blob 7s infinite",
         blob2: "blob2 10s infinite",
