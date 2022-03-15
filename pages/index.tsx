@@ -20,13 +20,13 @@ const IndexPage = () => (
         </div>
       {/* import the SoftLife logo from the public folder and add it to the page */}
       
-      <div className="flex max-w-4xl  justify-start ml-6 font-bold  ">
+      {/* <div className="flex max-w-4xl  justify-start ml-6 font-bold  ">
       <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
-        </div>
+        </div> */}
 
       <div className="text-center space-y-10">
         <h3 className="  text-2xl xl:text-5xl uppercase tracking-wider">
-          SoftLife is Coming soon
+         The SoftLife is Coming soon
         </h3>
         <h1 className="lg:text-5xl flex"><Timer /></h1>
         <p className="text-xl lg:text-4xl font-semibold  hover:cursor-pointer  tracking-wide mx-10 lg:max-w-xl lg:mx-auto hover:font-pop">
