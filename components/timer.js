@@ -8,7 +8,7 @@ class Timer extends Component {
 
     this.state = {
       years: 0,
-      days: 0,
+      days: -10,
       hours: 0,
       min: 0,
       sec: 0,
@@ -136,8 +136,8 @@ Timer.propTypes = {
 
 const defaultDate = {
     
-  day: new Date().getDate(),
-  month: new Date().getMonth() + 2,
+  day: new Date().getDate() -7,
+  month: new Date().getMonth() +2,
   year: new Date().getFullYear(),
 }
 
