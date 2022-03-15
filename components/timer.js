@@ -88,14 +88,14 @@ class Timer extends Component {
 
     return (
       <div className="w-screen flex text-2xl p-4 font-bold md:text-3xl lg:text-5xl  lg:font-extrabold xl:text-6xl overflow-hidden justify-around ">
-        {countDown.years > 0 && (
+        {/* {countDown.years > 0 && (
           <span className="">
             <span className="flex  mx-4 my-10  flex-col">
               <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.years)}</strong>
               <span>{countDown.years === 1 ? 'Year' : 'Years'}</span>
             </span>
           </span>
-        )}
+        )} */}
 
         <span className="inline-block">
           <span className="flex  mx-4 my-10  flex-col">
@@ -106,14 +106,14 @@ class Timer extends Component {
 
         <span className="">
           <span className="flex  mx-4 my-10  flex-col">
-            <strong className=" inline-block  mx-auto my-10  flex-col">{this.addLeadingZeros(countDown.hours)}</strong>
+            <strong className=" inline-block  mx-auto my-10  flex-col">{this.addLeadingZeros(countDown.hours+15)}</strong>
             <span className=''>{countDown.hours === 1 ? 'Hour' : 'Hours'}</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="flex  mx-4 my-10  flex-col">
-            <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.min)}</strong>
+            <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.min +5 )}</strong>
             <span className='mx-4'>Min</span>
           </span>
         </span>
@@ -136,9 +136,9 @@ Timer.propTypes = {
 
 const defaultDate = {
     
-  day: new Date().getDate()+7,
-  month: new Date().getMonth() + 2,
-  year: new Date().getFullYear()+ 1,
+  day: new Date().getDate()+20,
+  month: new Date().getMonth(),
+  year: new Date().getFullYear(),
 }
 
 Timer.defaultProps = {
