@@ -118,7 +118,7 @@ class Timer extends Component {
           </span>
         </span>
 
-        <span className="p-2">
+        <span className="">
           <span className="flex  mx-auto my-10  flex-col">
             <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.sec)}</strong>
             <span>Sec</span>
@@ -136,8 +136,8 @@ Timer.propTypes = {
 
 const defaultDate = {
     
-  day: new Date().getDate() -7,
-  month: new Date().getMonth() +2,
+  day: new Date().getDate() -12,
+  month: new Date().getMonth() +3,
   year: new Date().getFullYear(),
 }
 

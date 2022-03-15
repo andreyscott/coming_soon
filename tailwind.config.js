@@ -8,6 +8,12 @@ module.exports = {
         "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
     },
     extend: {
+      colors: {
+        pblack: "#191a1c",
+        pblue: "#143d59",
+        pyellow: "#f4b41a",
+    
+    },
    
       fontFamily: {
         pop: ['Poppins']
