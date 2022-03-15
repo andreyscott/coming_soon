@@ -106,14 +106,14 @@ class Timer extends Component {
 
         <span className="">
           <span className="flex  mx-4 my-10  flex-col">
-            <strong className=" inline-block  mx-auto my-10  flex-col">{this.addLeadingZeros(countDown.hours+15)}</strong>
+            <strong className=" inline-block  mx-auto my-10  flex-col">{this.addLeadingZeros(countDown.hours)}</strong>
             <span className=''>{countDown.hours === 1 ? 'Hour' : 'Hours'}</span>
           </span>
         </span>
 
         <span className="Countdown-col">
           <span className="flex  mx-4 my-10  flex-col">
-            <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.min +5 )}</strong>
+            <strong className=' inline-block  mx-auto my-10  flex-col'>{this.addLeadingZeros(countDown.min)}</strong>
             <span className='mx-4'>Min</span>
           </span>
         </span>
@@ -136,8 +136,8 @@ Timer.propTypes = {
 
 const defaultDate = {
     
-  day: new Date().getDate()+20,
-  month: new Date().getMonth(),
+  day: new Date().getDate(),
+  month: new Date().getMonth() + 2,
   year: new Date().getFullYear(),
 }
 
