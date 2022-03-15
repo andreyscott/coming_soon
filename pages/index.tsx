@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import Timer from "../components/timer";
 
 const IndexPage = () => (
-  <Layout title="Coming Soon - Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by andrey-profile.web.app">
+  <Layout title="The SoftLife -  A Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by andrey-profile.web.app">
     <img
       src="/images/xera.svg"
       alt="andrey-profile.web.app"    className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
