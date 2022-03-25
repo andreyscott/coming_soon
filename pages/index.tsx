@@ -25,6 +25,7 @@ const IndexPage = () => (
         </div> */}
 
       <div className="text-center space-y-10">
+        
         <h3 className="  text-2xl xl:text-5xl uppercase  tracking-wider">
          The SoftLife is Coming soon
         </h3>
