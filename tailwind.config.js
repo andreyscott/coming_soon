@@ -9,12 +9,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        swhite: "#E5E5E5",
-        sgrey: "6B6F78",
         pblack: "#191a1c",
-        sblack: "#6B6F78",
-        sblue: "#143d59",
-        syellow: "#f4b41a",
+        pblue: "#143d59",
+        pyellow: "#f4b41a",
     
     },
    
