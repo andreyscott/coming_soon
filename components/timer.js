@@ -137,7 +137,7 @@ Timer.propTypes = {
 const defaultDate = {
     
   day: new Date().getDate(),
-  month: new Date().getMonth() +3,
+  month: new Date().getMonth() +2,
   year: new Date().getFullYear(),
 }
 
