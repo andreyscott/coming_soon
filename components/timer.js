@@ -40,7 +40,7 @@ class Timer extends Component {
 
     const timeLeft = {
       years: 0,
-      days: 0,
+      days: 10,
       hours: 0,
       min: 0,
       sec: 0
@@ -137,7 +137,7 @@ Timer.propTypes = {
 const defaultDate = {
     
   day: new Date().getDate(),
-  month: new Date().getMonth() +3,
+  month: new Date().getMonth() +2,
   year: new Date().getFullYear(),
 }
 

@@ -3,10 +3,11 @@ import Layout from "../components/Layout";
 import Timer from "../components/timer";
 
 const IndexPage = () => (
-  <Layout title="The SoftLife -  A Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by andrey-profile.web.app">
+  <Layout title="Abacus -  A Clean Coming Soon Page (Tailwind CSS, NextJs) created by andrey-profile.web.app">
     <img
       src="/images/xera.svg"
-      alt="andrey-profile.web.app"    className="absolute h-96 -top-20 -right-16 lg:right-5 lg:top-10 animate-blob"
+      alt="andrey-profile.web.app" 
+         className="absolute h-40 md:h-44 lg:h-72  -top-2  -right-3  lg:right-6 lg:top-10 animate-blob"
     />
     
     <img
@@ -16,21 +17,17 @@ const IndexPage = () => (
     />
     <div className="relative font-pop z-10 py-6 space-y-16 lg:space-y-32 text-pblack">
     <div className="flex max-w-4xl justify-start ml-6 ">
-      <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
+      <img src="/images/logo.png" alt="logo" className="h-48" />
         </div>
-      {/* import the SoftLife logo from the public folder and add it to the page */}
-      
-      {/* <div className="flex max-w-4xl  justify-start ml-6 font-bold  ">
-      <img src="/images/SOFTlife_Logo-06.png" alt="logo" className="h-48" />
-        </div> */}
+      {/* import the Abacus logo from the public folder and add it to the page */}
 
       <div className="text-center space-y-10">
         
-        <h3 className="  text-2xl xl:text-5xl uppercase  tracking-wider">
-         The SoftLife is Coming soon
+        <h3 className="  text-2xl font-medium  lg:text-5xl uppercase  tracking-wider">
+        Abacus is Coming soon
         </h3>
         <h1 className="lg:text-5xl flex"><Timer /></h1>
-        <p className="text-xl lg:text-4xl font-semibold   hover:cursor-pointer  tracking-wide mx-10 lg:max-w-xl lg:mx-auto hover:font-pop">
+        <p className="text-xl lg:text-4xl font-semibold pt-2 lg:mt-3   hover:cursor-pointer  tracking-wide mx-10 lg:max-w-xl lg:mx-auto hover:font-pop">
           We`re under construction. provide your email for any future updates. Stay in touch
           touch!
         </p>
@@ -41,7 +38,7 @@ const IndexPage = () => (
           placeholder="keep me updated!"
           className="w-full text-2xl font-light text-pblack placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
         />
-        <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-pblack text-white rounded-xl transition ease-in-out duration-500  hover:bg-pyellow">
+        <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-pblack text-white rounded-xl transition ease-in-out duration-500  hover:bg-pviolet">
           Notify me
         </button>
       </form>
@@ -49,8 +46,8 @@ const IndexPage = () => (
     <div className=" relative xl:absolute   xl:bottom-5">
       <ul className="flex space-x-5 lg:space-x-8    ">
         <li className="flex ">
-          <Link href="https://www.instagram.com/thesoftlifehq/?utm_medium=copy_link">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
+          <Link href="/">
+            <a className="flex items-center justify-center hover:animate-bounce w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pviolet hover:text-white hover:shadow-lg">
               <svg
                 className="w-8 h-8 lg:w-16  lg:h-16"
                 fill="currentColor"
@@ -67,8 +64,8 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://twitter.com/thesoftlifehq?s=21">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
+          <Link href="/">
+            <a className="flex items-center justify-center hover:animate-bounce w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pviolet hover:text-white hover:shadow-lg">
               <svg
                 className="w-8 h-8 lg:w-16  lg:h-16"
                 fill="currentColor"
@@ -81,8 +78,8 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://www.linkedin.com/company/the-soft-life-geng/about/">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
+          <Link href="https://www.linkedin.com//">
+            <a className="flex items-center justify-center hover:animate-bounce  w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pviolet hover:text-white hover:shadow-lg">
 
               <svg 
            className="w-8 h-8 lg:w-16  lg:h-16"
@@ -94,8 +91,8 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://web.facebook.com/thesoftlifehq/">
-            <a className="flex items-center justify-center w-12 h-12 lg:w-20 lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pyellow hover:text-white hover:shadow-lg">
+          <Link href="/">
+            <a className="flex items-center justify-center w-12 h-12 lg:w-20 hover:animate-bounce lg:h-20 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-pviolet hover:text-white hover:shadow-lg">
               <svg
                className="w-8 h-8 lg:w-16  lg:h-16"
                 fill="currentColor"

@@ -4,14 +4,19 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     backgroundImage: {
-      hero:
-        "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
+      // hero:
+      // link abacus_3.jpg from public folder
+
+      'hero': 'url("/images/abacus_3.jpg")',
+        // "url('https://html.creativegigstf.com/vCamp/vCamp/images/assets/bg_01.png')",
     },
     extend: {
       colors: {
-        pblack: "#191a1c",
+         pblack: "#160051",
         pblue: "#143d59",
         pyellow: "#f4b41a",
+        pviolet: "#e758d4",
+
     
     },
    
